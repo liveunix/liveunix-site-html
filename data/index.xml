@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on liveunix</title>
+    <link>https://liveunix.org/data/</link>
+    <description>Recent content in Data on liveunix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://liveunix.org/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>antergos</title>
+      <link>https://liveunix.org/data/antergos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/data/antergos/</guid>
+      <description>document.write(loadFile(&#34;/ascii/antergos&#34;));   home &amp;lt; https://antergos.org &amp;gt;
+summary &amp;lt; a distribution based on arch linux. &amp;gt;
+degree of difficulty &amp;lt; beginner &amp;gt;
+wiki &amp;lt; https://antergos.com/wiki &amp;gt;
+arch &amp;lt; x86_64 &amp;gt;
+latest version &amp;lt; 18.6 &amp;gt;
+based on &amp;lt; arch linux &amp;gt;
+release &amp;lt; rolling &amp;gt;
+installation &amp;lt; gui &amp;gt;
+flavours &amp;lt; live, minimal &amp;gt;
+package manager &amp;lt; pacman &amp;gt;
+init &amp;lt; systemd &amp;gt;
+libc &amp;lt; glibc &amp;gt;
+bugtracker &amp;lt; https://kaosx.</description>
+    </item>
+    
+    <item>
+      <title>arch linux</title>
+      <link>https://liveunix.org/data/arch-linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/data/arch-linux/</guid>
+      <description>document.write(loadFile(&#34;/ascii/arch&#34;));   home &amp;lt; https://archlinux.org &amp;gt;
+summary &amp;lt; a lightweight and flexible linux distribution that tries to keep it simple. &amp;gt;
+degree of difficulty &amp;lt; advanced &amp;gt;
+wiki &amp;lt; https://wiki.archlinux.org &amp;gt;
+arch &amp;lt; x86_64 &amp;gt;
+latest version &amp;lt; 2018.06.01 &amp;gt;
+release &amp;lt; rolling &amp;gt;
+installation &amp;lt; cli &amp;gt;
+package manager &amp;lt; pacman &amp;gt;
+init &amp;lt; systemd &amp;gt;
+libc &amp;lt; glibc &amp;gt;
+bugtracker &amp;lt; https://bugs.archlinux.org &amp;gt;
+git &amp;lt; https://git.archlinux.org &amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>https://liveunix.org/data/debian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/data/debian/</guid>
+      <description>document.write(loadFile(&#34;/ascii/debian&#34;));   home &amp;lt; https://www.debian.org &amp;gt;
+summary &amp;lt; a unix-like computer operating system that is composed entirely of free software &amp;gt;
+degree of difficulty &amp;lt; intermediate &amp;gt;
+documentation &amp;lt; https://www.debian.org/doc/ &amp;gt;
+wiki &amp;lt; https://wiki.debian.org/ &amp;gt;
+arch &amp;lt; amd64, arm64, armel, armhf, i386, mips, mips64el, ppc64el, s390x &amp;gt;
+latest version &amp;lt; 9.4.0 &amp;gt;
+release &amp;lt; stable &amp;gt;
+installation &amp;lt; cli, gui &amp;gt;
+flavours &amp;lt; dvd, netinst, netinst-xfce &amp;gt;
+package manager &amp;lt; apt &amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>exherbo</title>
+      <link>https://liveunix.org/data/exherbo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/data/exherbo/</guid>
+      <description>document.write(loadFile(&#34;/ascii/exherbo&#34;));   home &amp;lt; https://exherbo.org &amp;gt;
+summary &amp;lt; source based linux distribution with up-front configuration. &amp;gt;
+degree of difficulty &amp;lt; lfs &amp;gt;
+documentation &amp;lt; https://exherbo.org/docs &amp;gt;
+arch &amp;lt; x86_64, i686 &amp;gt;
+latest version &amp;lt; 20180701 &amp;gt;
+release &amp;lt; rolling &amp;gt;
+installation &amp;lt; cli &amp;gt;
+init &amp;lt; systemd, openrc &amp;gt;
+libc &amp;lt; glibc, musl &amp;gt;
+bugtracker &amp;lt; https://bugs.exherbo.org &amp;gt;
+git &amp;lt; https://gitlab.exherbo.org &amp;gt;
+stage3.x86_64 = [ 20180701 ,20180617 ,20171219 ,20171210 ]</description>
+    </item>
+    
+    <item>
+      <title>kaos</title>
+      <link>https://liveunix.org/data/kaos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/data/kaos/</guid>
+      <description>document.write(loadFile(&#34;/ascii/kaos&#34;));   home &amp;lt; https://kaosx.us &amp;gt;
+summary &amp;lt; an independent distribution focused on qt and kde. &amp;gt;
+degree of difficulty &amp;lt; intermediate &amp;gt;
+documentation &amp;lt; https://kaosx.us/docs &amp;gt;
+arch &amp;lt; x86_64 &amp;gt;
+latest version &amp;lt; 2018.06 &amp;gt;
+release &amp;lt; rolling &amp;gt;
+installation &amp;lt; gui &amp;gt;
+default desktop &amp;lt; kde &amp;gt;
+iso.x86_64 = [ 2018.06 ]</description>
+    </item>
+    
+    <item>
+      <title>manjaro</title>
+      <link>https://liveunix.org/data/manjaro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/data/manjaro/</guid>
+      <description>document.write(loadFile(&#34;/ascii/manjaro&#34;));   home &amp;lt; https://manjaro.org &amp;gt;
+summary &amp;lt; a distribution based on arch linux. &amp;gt;
+degree of difficulty &amp;lt; intermediate &amp;gt;
+wiki &amp;lt; https://wiki.manjaro.org &amp;gt;
+arch &amp;lt; x86_64 &amp;gt;
+latest version &amp;lt; 17.1.10 &amp;gt;
+based on &amp;lt; arch linux &amp;gt;
+release &amp;lt; rolling &amp;gt;
+installation &amp;lt; gui &amp;gt;
+flavours &amp;lt; awesome, bspwm, budgie, cinnamon, deepin, gnome, i3, kde, lxde, mate, openbox, xfce &amp;gt;
+package manager &amp;lt; pacman &amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>raspbian</title>
+      <link>https://liveunix.org/data/raspbian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/data/raspbian/</guid>
+      <description>document.write(loadFile(&#34;/ascii/raspbian&#34;));   home &amp;lt; https://raspbian &amp;gt;
+summary &amp;lt; a free operating system based on debian optimized for the raspberry pi hardware. &amp;gt;
+degree of difficulty &amp;lt; intermediate &amp;gt;
+arch &amp;lt; arm &amp;gt;
+latest version &amp;lt; 2018-06-27 &amp;gt;
+based on &amp;lt; debian &amp;gt;
+release &amp;lt; stable &amp;gt;
+installation &amp;lt; cli &amp;gt;
+flavours &amp;lt; stretch, lite &amp;gt;
+package manager &amp;lt; apt &amp;gt;
+init &amp;lt; systemd &amp;gt;
+libc &amp;lt; glibc &amp;gt;</description>
+    </item>
+    
+  </channel>
+</rss>

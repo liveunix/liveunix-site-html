@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://liveunix.org/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/data/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/data/antergos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/data/arch-linux/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/data/debian/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/data/exherbo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/data/kaos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/data/manjaro/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/data/raspbian/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/search/</loc>
+  </url>
+  
+</urlset>
