@@ -4,7 +4,7 @@
     <meta name="generator" content="Hugo 0.44" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>search | liveunix</title>
+    <title>Distros | liveunix</title>
     <meta name="description" content="linux and bsd live iso informations">
     <meta name="keywords" content="">
     
@@ -18,10 +18,10 @@
   <meta name="author" content="Danilo Spinella">
 
 
-    <meta property="og:title" content="search" />
+    <meta property="og:title" content="Distros" />
 <meta property="og:description" content="linux and bsd live iso informations" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://liveunix.org/search/" />
+<meta property="og:url" content="https://liveunix.org/distro/" />
 
 
 
@@ -37,7 +37,7 @@
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="search"/>
+<meta name="twitter:title" content="Distros"/>
 <meta name="twitter:description" content="linux and bsd live iso informations"/>
 
     
@@ -57,9 +57,9 @@
     
 
     
-      <link href="https://liveunix.org/search/index.xml" rel="alternate" type="application/rss+xml" title="liveunix">
+      <link href="https://liveunix.org/distro/index.xml" rel="alternate" type="application/rss+xml" title="liveunix">
     
-    <link rel="canonical" href="https://liveunix.org/search/">
+    <link rel="canonical" href="https://liveunix.org/distro/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -322,9 +322,9 @@ a[itemprop="url"]:hover {
     
       <a itemprop="url" class="" href="/"><span itemprop="name">home</span></a>
     
-      <a itemprop="url" class="" href="/distro/"><span itemprop="name">distro</span></a>
+      <a itemprop="url" class="active" href="/distro/"><span itemprop="name">distro</span></a>
     
-      <a itemprop="url" class="active" href="/search/"><span itemprop="name">grep</span></a>
+      <a itemprop="url" class="" href="/search/"><span itemprop="name">grep</span></a>
     
       <a itemprop="url" class="" href="https://github.com/liveunix/liveunix-data"><span itemprop="name">git</span></a>
     
@@ -334,163 +334,168 @@ a[itemprop="url"]:hover {
 </header>
     <main>
   <header>
-    <h1>search</h1>
+    <h1>distros</h1>
   </header>
-  <noscript>
-    aw-shucks! search requires use of javascript to function properly.
-  </noscript>
-  <div id="search-app">
-    <div v-cloak>
-      <section>
-        <form v-on:submit.prevent class="form" action="https://liveunix.org/search">
-          <fieldset class="form-group">
-            <input v-model="query" id="query" name="s" type="search" class="form-control" maxlength="32" autocomplete="off">
-            <div class="help-block">press <kbd>s</kbd> to focus search input anytime.</div>
-          </fieldset>
-        </form>
-      </section>
-      <section v-if="results.length">
-        <div id="search-results">
-          <article v-for="result in results" itemscope itemtype="http://schema.org/CreativeWork">
-            <header itemprop="name">
-              <h2 itemprop="name"><a :href="result.item.url"><span v-html="result.item.title"></span></a></h2>
-            </header>
-            <div v-html=result.item.summary itemprop="description"></div>
-            <nav class="readmore"><a itemprop="url" :href="result.item.url">cat</a></nav>
-          </article>
-        </div>
-      </section>
+  
+    <article itemscope itemtype="http://schema.org/CreativeWork">
+  <header>
+    <h2 itemprop="name">
+      <a href="/distro/antergos/">antergos</a>
+    </h2>
+    
+  </header>
+  
+    <blockquote itemprop="headline">a distribution based on arch linux.</blockquote>
+  
+  
+    <div itemprop="description">
+      document.write(loadFile("/ascii/antergos"));   home &lt; https://antergos.org &gt;
+summary &lt; a distribution based on arch linux. &gt;
+degree of difficulty &lt; beginner &gt;
+wiki &lt; https://antergos.com/wiki &gt;
+arch &lt; x86_64 &gt;
+latest version &lt; 18.6 &gt;
+based on &lt; arch linux &gt;
+release &lt; rolling &gt;
+installation &lt; gui &gt;
+flavours &lt; live, minimal &gt;
+package manager &lt; pacman &gt;
+init &lt; systemd &gt;
+libc &lt; glibc &gt;
+bugtracker &lt; https://kaosx.
     </div>
-  </div>
+    
+      <nav class="readmore"><a itemprop="url" href="/distro/antergos/">cat&nbsp;&raquo;</a></nav>
+    
+    <meta itemprop="inLanguage" content="en-us">
+    <meta itemprop="datePublished" content="0001-01-01T00:00:00&#43;00:00">
+    <meta itemprop="dateModified" content="0001-01-01T00:00:00&#43;00:00">
+  
+  
+</article>
+
+  
+    <article itemscope itemtype="http://schema.org/CreativeWork">
+  <header>
+    <h2 itemprop="name">
+      <a href="/distro/arch-linux/">arch linux</a>
+    </h2>
+    
+  </header>
+  
+    <blockquote itemprop="headline">a lightweight and flexible linux distribution that tries to keep it simple.</blockquote>
+  
+  
+    <div itemprop="description">
+      document.write(loadFile("/ascii/arch"));   home &lt; https://archlinux.org &gt;
+summary &lt; a lightweight and flexible linux distribution that tries to keep it simple. &gt;
+degree of difficulty &lt; advanced &gt;
+wiki &lt; https://wiki.archlinux.org &gt;
+arch &lt; x86_64 &gt;
+latest version &lt; 2018.06.01 &gt;
+release &lt; rolling &gt;
+installation &lt; cli &gt;
+package manager &lt; pacman &gt;
+init &lt; systemd &gt;
+libc &lt; glibc &gt;
+bugtracker &lt; https://bugs.archlinux.org &gt;
+git &lt; https://git.archlinux.org &gt;
+    </div>
+    
+      <nav class="readmore"><a itemprop="url" href="/distro/arch-linux/">cat&nbsp;&raquo;</a></nav>
+    
+    <meta itemprop="inLanguage" content="en-us">
+    <meta itemprop="datePublished" content="0001-01-01T00:00:00&#43;00:00">
+    <meta itemprop="dateModified" content="0001-01-01T00:00:00&#43;00:00">
+  
+  
+</article>
+
+  
+    <article itemscope itemtype="http://schema.org/CreativeWork">
+  <header>
+    <h2 itemprop="name">
+      <a href="/distro/debian/">debian</a>
+    </h2>
+    
+  </header>
+  
+    <blockquote itemprop="headline">a unix-like computer operating system that is composed entirely of free software</blockquote>
+  
+  
+    <div itemprop="description">
+      document.write(loadFile("/ascii/debian"));   home &lt; https://www.debian.org &gt;
+summary &lt; a unix-like computer operating system that is composed entirely of free software &gt;
+degree of difficulty &lt; intermediate &gt;
+documentation &lt; https://www.debian.org/doc/ &gt;
+wiki &lt; https://wiki.debian.org/ &gt;
+arch &lt; amd64, arm64, armel, armhf, i386, mips, mips64el, ppc64el, s390x &gt;
+latest version &lt; 9.4.0 &gt;
+release &lt; stable &gt;
+installation &lt; cli, gui &gt;
+flavours &lt; dvd, netinst, netinst-xfce &gt;
+package manager &lt; apt &gt;
+    </div>
+    
+      <nav class="readmore"><a itemprop="url" href="/distro/debian/">cat&nbsp;&raquo;</a></nav>
+    
+    <meta itemprop="inLanguage" content="en-us">
+    <meta itemprop="datePublished" content="0001-01-01T00:00:00&#43;00:00">
+    <meta itemprop="dateModified" content="0001-01-01T00:00:00&#43;00:00">
+  
+  
+</article>
+
+  
+    <article itemscope itemtype="http://schema.org/CreativeWork">
+  <header>
+    <h2 itemprop="name">
+      <a href="/distro/exherbo/">exherbo</a>
+    </h2>
+    
+  </header>
+  
+    <blockquote itemprop="headline">source based linux distribution with up-front configuration.</blockquote>
+  
+  
+    <div itemprop="description">
+      document.write(loadFile("/ascii/exherbo"));   home &lt; https://exherbo.org &gt;
+summary &lt; source based linux distribution with up-front configuration. &gt;
+degree of difficulty &lt; lfs &gt;
+documentation &lt; https://exherbo.org/docs &gt;
+arch &lt; x86_64, i686 &gt;
+latest version &lt; 20180701 &gt;
+release &lt; rolling &gt;
+installation &lt; cli &gt;
+init &lt; systemd, openrc &gt;
+libc &lt; glibc, musl &gt;
+bugtracker &lt; https://bugs.exherbo.org &gt;
+git &lt; https://gitlab.exherbo.org &gt;
+stage3.x86_64 = [ 20180701 ,20180617 ,20171219 ,20171210 ]
+    </div>
+    
+      <nav class="readmore"><a itemprop="url" href="/distro/exherbo/">cat&nbsp;&raquo;</a></nav>
+    
+    <meta itemprop="inLanguage" content="en-us">
+    <meta itemprop="datePublished" content="0001-01-01T00:00:00&#43;00:00">
+    <meta itemprop="dateModified" content="0001-01-01T00:00:00&#43;00:00">
+  
+  
+</article>
+
+  
 </main>
     <footer>
-  
-<footer>
-    content on this site is
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa 4.0</a></br>
-    ascii art is
-    <a href="https://github.com/dylanaraps/neofetch/blob/master/LICENSE.md">MIT</a></br>
-</footer>
+  <nav>
+  <p>
+    
+    <span> [1 / 2]</span>
+    
+      <a href="/distro/page/2/">l ></a>
+    
+  </p>
+</nav>
 
-
-  <script src="/js/vue.min.js"></script>
-  <script src="/js/lodash.custom.min.js"></script>
-  <script src="/js/fuse.min.js"></script>
-  <script src="/js/mark.min.js"></script>
-  <script>
-    (function (window, document, undefined) {
-      "use strict"
-
-      const getQueryByParam = param => decodeURIComponent(
-        (location.search.split(param + '=')[1] || '').split('&')[0]
-      ).replace(/\+/g, ' ')
-
-      const queryParam = 's'
-      const selectors = {
-        appContainer: '#search-app',
-        resultContainer: '#search-results',
-        searchInput: '#query'
-      }
-
-      const fuseOpts = {
-        shouldSort: true,
-        tokenize: true,
-        matchAllTokens: true,
-        includeScore: true,
-        includeMatches: true,
-        keys: [
-          { name: "title", weight: 0.8 },
-          { name: "contents", weight: 0.5 },
-          { name: "tags", weight: 0.3 },
-          { name: "categories", weight: 0.3 }
-        ]
-      }
-
-      const getSearchInput = () => document.querySelector(selectors.searchInput)
-      const focusSearchInput = () => getSearchInput().focus()
-      const searchQuery = getSearchInput().value = getQueryByParam(queryParam)
-
-      const fuse = new Fuse([], fuseOpts)
-      window.fetch('/index.json').then(response => {
-        response.text().then(searchData => {
-          fuse.setCollection(JSON.parse(searchData))
-          if (searchQuery) search(searchQuery)
-        })
-      })
-
-      const getUrl = (query) => {
-        const encodedQuery = encodeURIComponent(query)
-        const url = "/search/"
-        return (encodedQuery)
-          ? `${url}?${queryParam}=${encodedQuery}`
-          : url
-      }
-
-      let mark = new Mark(
-        document.querySelector(
-          selectors.resultContainer
-        )
-      )
-
-      const app = new Vue({
-        delimiters: ['{', '}'],
-        el: selectors.appContainer,
-        data: {
-          fuse: null,
-          results: [],
-          query: getQueryByParam(queryParam),
-          resultsForSearch: getQueryByParam(queryParam)
-        },
-        mounted () {
-          this.fuse = fuse
-          window.onpopstate = (evt) => {
-            this.query = evt.state.query
-          }
-          document.onkeyup = function (evt) {
-            if (evt.key === 's') focusSearchInput()
-          }
-          focusSearchInput()
-        },
-        watch: {
-          query () {
-            this.executeSearch()
-            window.history.replaceState(
-              {query: this.query},
-              null,
-              getUrl(this.query)
-            )
-          }
-        },
-        beforeUpdate: function () {
-          mark.unmark()
-        },
-        updated: function () {
-          this.$nextTick(function () {
-            mark = new Mark(
-              document.querySelector(
-                selectors.resultContainer
-              )
-            )
-            mark.mark(this.query.trim())
-          })
-        },
-        methods: {
-          executeSearch: _.debounce(function () {
-            const trimmedQuery = this.query.trim()
-            this.resultsForSearch = trimmedQuery
-            this.results = (trimmedQuery)
-              ? this.fuse.search(trimmedQuery)
-              : []
-          }, 250)
-        }
-      })
-
-      const search = query => {
-        app.results = fuse.search(query)
-      }
-
-    })(window, document)
-  </script>
 </footer>
   </body>
 </html>

@@ -12,7 +12,7 @@
   </url>
   
   <url>
-    <loc>https://liveunix.org/data/</loc>
+    <loc>https://liveunix.org/distro/</loc>
     <priority>0</priority>
   </url>
   
@@ -22,31 +22,31 @@
   </url>
   
   <url>
-    <loc>https://liveunix.org/data/antergos/</loc>
+    <loc>https://liveunix.org/distro/antergos/</loc>
   </url>
   
   <url>
-    <loc>https://liveunix.org/data/arch-linux/</loc>
+    <loc>https://liveunix.org/distro/arch-linux/</loc>
   </url>
   
   <url>
-    <loc>https://liveunix.org/data/debian/</loc>
+    <loc>https://liveunix.org/distro/debian/</loc>
   </url>
   
   <url>
-    <loc>https://liveunix.org/data/exherbo/</loc>
+    <loc>https://liveunix.org/distro/exherbo/</loc>
   </url>
   
   <url>
-    <loc>https://liveunix.org/data/kaos/</loc>
+    <loc>https://liveunix.org/distro/kaos/</loc>
   </url>
   
   <url>
-    <loc>https://liveunix.org/data/manjaro/</loc>
+    <loc>https://liveunix.org/distro/manjaro/</loc>
   </url>
   
   <url>
-    <loc>https://liveunix.org/data/raspbian/</loc>
+    <loc>https://liveunix.org/distro/raspbian/</loc>
   </url>
   
   <url>

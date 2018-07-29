@@ -4,7 +4,7 @@
     <meta name="generator" content="Hugo 0.44" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>search | liveunix</title>
+    <title>Data | liveunix</title>
     <meta name="description" content="linux and bsd live iso informations">
     <meta name="keywords" content="">
     
@@ -18,10 +18,10 @@
   <meta name="author" content="Danilo Spinella">
 
 
-    <meta property="og:title" content="search" />
+    <meta property="og:title" content="Data" />
 <meta property="og:description" content="linux and bsd live iso informations" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://liveunix.org/search/" />
+<meta property="og:url" content="https://liveunix.org/data/" />
 
 
 
@@ -37,7 +37,7 @@
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="search"/>
+<meta name="twitter:title" content="Data"/>
 <meta name="twitter:description" content="linux and bsd live iso informations"/>
 
     
@@ -57,9 +57,9 @@
     
 
     
-      <link href="https://liveunix.org/search/index.xml" rel="alternate" type="application/rss+xml" title="liveunix">
+      <link href="https://liveunix.org/data/index.xml" rel="alternate" type="application/rss+xml" title="liveunix">
     
-    <link rel="canonical" href="https://liveunix.org/search/">
+    <link rel="canonical" href="https://liveunix.org/data/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -322,9 +322,9 @@ a[itemprop="url"]:hover {
     
       <a itemprop="url" class="" href="/"><span itemprop="name">home</span></a>
     
-      <a itemprop="url" class="" href="/distro/"><span itemprop="name">distro</span></a>
+      <a itemprop="url" class="active" href="/data/"><span itemprop="name">list</span></a>
     
-      <a itemprop="url" class="active" href="/search/"><span itemprop="name">grep</span></a>
+      <a itemprop="url" class="" href="/search/"><span itemprop="name">grep</span></a>
     
       <a itemprop="url" class="" href="https://github.com/liveunix/liveunix-data"><span itemprop="name">git</span></a>
     
@@ -334,163 +334,72 @@ a[itemprop="url"]:hover {
 </header>
     <main>
   <header>
-    <h1>search</h1>
+    <h1>data</h1>
   </header>
-  <noscript>
-    aw-shucks! search requires use of javascript to function properly.
-  </noscript>
-  <div id="search-app">
-    <div v-cloak>
-      <section>
-        <form v-on:submit.prevent class="form" action="https://liveunix.org/search">
-          <fieldset class="form-group">
-            <input v-model="query" id="query" name="s" type="search" class="form-control" maxlength="32" autocomplete="off">
-            <div class="help-block">press <kbd>s</kbd> to focus search input anytime.</div>
-          </fieldset>
-        </form>
-      </section>
-      <section v-if="results.length">
-        <div id="search-results">
-          <article v-for="result in results" itemscope itemtype="http://schema.org/CreativeWork">
-            <header itemprop="name">
-              <h2 itemprop="name"><a :href="result.item.url"><span v-html="result.item.title"></span></a></h2>
-            </header>
-            <div v-html=result.item.summary itemprop="description"></div>
-            <nav class="readmore"><a itemprop="url" :href="result.item.url">cat</a></nav>
-          </article>
-        </div>
-      </section>
-    </div>
-  </div>
+  
+    <article itemscope itemtype="http://schema.org/CreativeWork">
+  <header>
+    <h2 itemprop="name">
+      <a href="/data/kaos/">kaos</a>
+    </h2>
+    
+  </header>
+  
+    <blockquote itemprop="headline">an independent distribution focused on qt and kde.</blockquote>
+  
+  
+      <nav class="readmore"><a itemprop="url" href="/data/kaos/">cat</a></nav>
+  
+  
+</article>
+
+  
+    <article itemscope itemtype="http://schema.org/CreativeWork">
+  <header>
+    <h2 itemprop="name">
+      <a href="/data/manjaro/">manjaro</a>
+    </h2>
+    
+  </header>
+  
+    <blockquote itemprop="headline">a distribution based on arch linux.</blockquote>
+  
+  
+      <nav class="readmore"><a itemprop="url" href="/data/manjaro/">cat</a></nav>
+  
+  
+</article>
+
+  
+    <article itemscope itemtype="http://schema.org/CreativeWork">
+  <header>
+    <h2 itemprop="name">
+      <a href="/data/raspbian/">raspbian</a>
+    </h2>
+    
+  </header>
+  
+    <blockquote itemprop="headline">a free operating system based on debian optimized for the raspberry pi hardware.</blockquote>
+  
+  
+      <nav class="readmore"><a itemprop="url" href="/data/raspbian/">cat</a></nav>
+  
+  
+</article>
+
+  
 </main>
     <footer>
-  
-<footer>
-    content on this site is
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa 4.0</a></br>
-    ascii art is
-    <a href="https://github.com/dylanaraps/neofetch/blob/master/LICENSE.md">MIT</a></br>
-</footer>
+  <nav>
+  <p>
+    
+      <a href="/data/">&lt; h</a>
+    
+    <span> [2 / 2]</span>
+    
+  </p>
+</nav>
 
-
-  <script src="/js/vue.min.js"></script>
-  <script src="/js/lodash.custom.min.js"></script>
-  <script src="/js/fuse.min.js"></script>
-  <script src="/js/mark.min.js"></script>
-  <script>
-    (function (window, document, undefined) {
-      "use strict"
-
-      const getQueryByParam = param => decodeURIComponent(
-        (location.search.split(param + '=')[1] || '').split('&')[0]
-      ).replace(/\+/g, ' ')
-
-      const queryParam = 's'
-      const selectors = {
-        appContainer: '#search-app',
-        resultContainer: '#search-results',
-        searchInput: '#query'
-      }
-
-      const fuseOpts = {
-        shouldSort: true,
-        tokenize: true,
-        matchAllTokens: true,
-        includeScore: true,
-        includeMatches: true,
-        keys: [
-          { name: "title", weight: 0.8 },
-          { name: "contents", weight: 0.5 },
-          { name: "tags", weight: 0.3 },
-          { name: "categories", weight: 0.3 }
-        ]
-      }
-
-      const getSearchInput = () => document.querySelector(selectors.searchInput)
-      const focusSearchInput = () => getSearchInput().focus()
-      const searchQuery = getSearchInput().value = getQueryByParam(queryParam)
-
-      const fuse = new Fuse([], fuseOpts)
-      window.fetch('/index.json').then(response => {
-        response.text().then(searchData => {
-          fuse.setCollection(JSON.parse(searchData))
-          if (searchQuery) search(searchQuery)
-        })
-      })
-
-      const getUrl = (query) => {
-        const encodedQuery = encodeURIComponent(query)
-        const url = "/search/"
-        return (encodedQuery)
-          ? `${url}?${queryParam}=${encodedQuery}`
-          : url
-      }
-
-      let mark = new Mark(
-        document.querySelector(
-          selectors.resultContainer
-        )
-      )
-
-      const app = new Vue({
-        delimiters: ['{', '}'],
-        el: selectors.appContainer,
-        data: {
-          fuse: null,
-          results: [],
-          query: getQueryByParam(queryParam),
-          resultsForSearch: getQueryByParam(queryParam)
-        },
-        mounted () {
-          this.fuse = fuse
-          window.onpopstate = (evt) => {
-            this.query = evt.state.query
-          }
-          document.onkeyup = function (evt) {
-            if (evt.key === 's') focusSearchInput()
-          }
-          focusSearchInput()
-        },
-        watch: {
-          query () {
-            this.executeSearch()
-            window.history.replaceState(
-              {query: this.query},
-              null,
-              getUrl(this.query)
-            )
-          }
-        },
-        beforeUpdate: function () {
-          mark.unmark()
-        },
-        updated: function () {
-          this.$nextTick(function () {
-            mark = new Mark(
-              document.querySelector(
-                selectors.resultContainer
-              )
-            )
-            mark.mark(this.query.trim())
-          })
-        },
-        methods: {
-          executeSearch: _.debounce(function () {
-            const trimmedQuery = this.query.trim()
-            this.resultsForSearch = trimmedQuery
-            this.results = (trimmedQuery)
-              ? this.fuse.search(trimmedQuery)
-              : []
-          }, 250)
-        }
-      })
-
-      const search = query => {
-        app.results = fuse.search(query)
-      }
-
-    })(window, document)
-  </script>
 </footer>
   </body>
 </html>
