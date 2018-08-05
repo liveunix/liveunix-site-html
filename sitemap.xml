@@ -42,7 +42,15 @@
   </url>
   
   <url>
+    <loc>https://liveunix.org/distro/knoppix/</loc>
+  </url>
+  
+  <url>
     <loc>https://liveunix.org/distro/manjaro/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/qubes-os/</loc>
   </url>
   
   <url>
@@ -51,6 +59,18 @@
   
   <url>
     <loc>https://liveunix.org/search/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/tails/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/ubuntu/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/xubuntu/</loc>
   </url>
   
 </urlset>

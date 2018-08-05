@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.46" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>debian | liveunix</title>
@@ -324,7 +324,7 @@ a[itemprop="url"]:hover {
     
       <a itemprop="url" class="" href="/search/"><span itemprop="name">grep</span></a>
     
-      <a itemprop="url" class="" href="https://github.com/liveunix/liveunix-data"><span itemprop="name">git</span></a>
+      <a itemprop="url" class="" href="https://github.com/liveunix/"><span itemprop="name">git</span></a>
     
   </nav>
 
@@ -340,7 +340,11 @@ a[itemprop="url"]:hover {
       if (xmlhttp.status==200) {
         result = xmlhttp.responseText;
       }
-      return result;
+      if (result != null) {
+        return result;
+      }
+
+      return "";
     }
   </script>
   <article itemscope itemtype="http://schema.org/Product">
@@ -350,7 +354,7 @@ a[itemprop="url"]:hover {
 
 
 
-<meta itemprop="wordCount" content="171">
+<meta itemprop="wordCount" content="107">
 
 
 
@@ -373,275 +377,41 @@ a[itemprop="url"]:hover {
 </script>
 </div>
 
-<p>home &lt; <a href="https://www.debian.org" target="_blank">https://www.debian.org</a> &gt;</p>
+<p><b>homepage &lt;</b> <a href="https://www.debian.org" target="_blank">https://www.debian.org</a> <b>&gt;</b></p>
 
-<p>summary &lt; a unix-like computer operating system that is composed entirely of free software &gt;</p>
+<p><b>summary &lt;</b> a unix-like computer operating system that is composed entirely of free software <b>&gt;</b></p>
 
-<p>degree of difficulty &lt; intermediate &gt;</p>
+<p><b>degree of difficulty &lt;</b> intermediate <b>&gt;</b></p>
 
-<p>documentation &lt; <a href="https://www.debian.org/doc/" target="_blank">https://www.debian.org/doc/</a> &gt;</p>
+<p><b>latest version &lt;</b> 9.4.0 <b>&gt;</b></p>
 
-<p>wiki &lt; <a href="https://wiki.debian.org/" target="_blank">https://wiki.debian.org/</a> &gt;</p>
+<p><b>release &lt;</b> stable <b>&gt;</b></p>
 
-<p>arch &lt;  amd64, arm64, armel, armhf, i386, mips, mips64el, ppc64el, s390x &gt;</p>
+<p><b>documentation &lt;</b> <a href="https://www.debian.org/doc/" target="_blank">https://www.debian.org/doc/</a> <b>&gt;</b></p>
 
-<p>latest version &lt; 9.4.0 &gt;</p>
+<p><b>wiki &lt;</b> <a href="https://wiki.debian.org/" target="_blank">https://wiki.debian.org/</a> <b>&gt;</b></p>
 
-<p>release &lt;  stable &gt;</p>
+<p><b>installation &lt;</b> cli, gui <b>&gt;</b></p>
 
-<p>installation &lt;  cli, gui &gt;</p>
+<p><b>architectures &lt;</b> amd64, arm64, armel, armhf, i386, mips, mips64el, ppc64el, s390x <b>&gt;</b></p>
 
-<p>flavours &lt;  dvd, netinst, netinst-xfce &gt;</p>
+<p><b>flavours &lt;</b> cinnamon, dvd, gnome, kde, lxde, mate, netinst, netinst-xfce <b>&gt;</b></p>
 
-<p>package manager &lt;  apt &gt;</p>
+<p><b>package manager &lt;</b> apt <b>&gt;</b></p>
 
-<p>init &lt;  systemd &gt;</p>
+<p><b>init system &lt;</b> systemd <b>&gt;</b></p>
 
-<p>libc &lt;  glibc &gt;</p>
+<p><b>libc &lt;</b> glibc <b>&gt;</b></p>
 
-<p>bugtracker &lt; <a href="https://www.debian.org/bugs/" target="_blank">https://www.debian.org/bugs/</a> &gt;</p>
+<p><b>mailing lists &lt;</b> <a href="https://lists.debian.org/" target="_blank">https://lists.debian.org/</a> <b>&gt;</b></p>
 
-<p>mailing_lists &lt; <a href="https://lists.debian.org/" target="_blank">https://lists.debian.org/</a> &gt;</p>
+<p><b>forum &lt;</b> <a href="http://forums.debian.net/" target="_blank">http://forums.debian.net/</a> <b>&gt;</b></p>
 
-<p>forum &lt; <a href="http://forums.debian.net/" target="_blank">http://forums.debian.net/</a> &gt;</p>
+<p><b>bugtracker &lt;</b> <a href="https://www.debian.org/bugs/" target="_blank">https://www.debian.org/bugs/</a> <b>&gt;</b></p>
 
-<p>packages &lt; <a href="https://www.debian.org/distrib/packages" target="_blank">https://www.debian.org/distrib/packages</a> &gt;</p>
+<p><b>packages list &lt;</b> <a href="https://www.debian.org/distrib/packages" target="_blank">https://www.debian.org/distrib/packages</a> <b>&gt;</b></p>
 
-<p>blog &lt; <a href="https://planet.debian.org/" target="_blank">https://planet.debian.org/</a> &gt;</p>
-
-<table>
-<thead>
-<tr>
-<th>amd64</th>
-<th>9.5.0</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>dvd</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-9.5.0-amd64-dvd-1.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.5.0-amd64-netinst.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst-xfce</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.5.0-amd64-xfce-cd-1.iso" target="_blank">wget</a></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th>arm64</th>
-<th>9.5.0</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>dvd</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/debian-9.5.0-arm64-dvd-1.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/arm64/iso-cd/debian-9.5.0-arm64-netinst.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst-xfce</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/arm64/iso-cd/debian-9.5.0-arm64-xfce-cd-1.iso" target="_blank">wget</a></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th>armel</th>
-<th>9.5.0</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>dvd</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/armel/iso-dvd/debian-9.5.0-armel-dvd-1.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/armel/iso-cd/debian-9.5.0-armel-netinst.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst-xfce</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/armel/iso-cd/debian-9.5.0-armel-xfce-cd-1.iso" target="_blank">wget</a></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th>armhf</th>
-<th>9.5.0</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>dvd</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/armhf/iso-dvd/debian-9.5.0-armhf-dvd-1.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/armhf/iso-cd/debian-9.5.0-armhf-netinst.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst-xfce</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/armhf/iso-cd/debian-9.5.0-armhf-xfce-cd-1.iso" target="_blank">wget</a></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th>i386</th>
-<th>9.5.0</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>dvd</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/i386/iso-dvd/debian-9.5.0-i386-dvd-1.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-9.5.0-i386-netinst.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst-xfce</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-9.5.0-i386-xfce-cd-1.iso" target="_blank">wget</a></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th>mips</th>
-<th>9.5.0</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>dvd</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/mips/iso-dvd/debian-9.5.0-mips-dvd-1.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/mips/iso-cd/debian-9.5.0-mips-netinst.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst-xfce</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/mips/iso-cd/debian-9.5.0-mips-netinst.iso" target="_blank">wget</a></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th>mips64el</th>
-<th>9.5.0</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>dvd</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/mips64el/iso-dvd/debian-9.5.0-mips64el-dvd-1.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/mips64el/iso-cd/debian-9.5.0-mips64el-netinst.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst-xfce</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/mips64el/iso-cd/debian-9.5.0-mips64el-xfce-cd-1.iso" target="_blank">wget</a></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th>ppc64el</th>
-<th>9.5.0</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>dvd</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/ppc64el/iso-dvd/debian-9.5.0-ppc64el-dvd-1.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/ppc64el/iso-cd/debian-9.5.0-ppc64el-netinst.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst-xfce</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/ppc64el/iso-cd/debian-9.5.0-ppc64el-xfce-cd-1.iso" target="_blank">wget</a></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th>s390x</th>
-<th>9.5.0</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>dvd</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/s390x/iso-dvd/debian-9.5.0-s390x-dvd-1.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/s390x/iso-cd/debian-9.5.0-s390x-netinst.iso" target="_blank">wget</a></td>
-</tr>
-
-<tr>
-<td>netinst-xfce</td>
-<td><a href="https://cdimage.debian.org/debian-cd/current/s390x/iso-cd/debian-9.5.0-s390x-xfce-cd-1.iso" target="_blank">wget</a></td>
-</tr>
-</tbody>
-</table>
+<p><b>blog &lt;</b> <a href="https://planet.debian.org/" target="_blank">https://planet.debian.org/</a> <b>&gt;</b></p>
 
     </div>
     <footer>
