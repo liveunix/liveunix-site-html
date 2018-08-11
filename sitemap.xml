@@ -34,7 +34,19 @@
   </url>
   
   <url>
+    <loc>https://liveunix.org/distro/deepin/</loc>
+  </url>
+  
+  <url>
     <loc>https://liveunix.org/distro/exherbo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/fedora/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/frugalware/</loc>
   </url>
   
   <url>
@@ -46,7 +58,23 @@
   </url>
   
   <url>
+    <loc>https://liveunix.org/distro/kubuntu/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/linux-mint/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/mageia/</loc>
+  </url>
+  
+  <url>
     <loc>https://liveunix.org/distro/manjaro/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/pop_os/</loc>
   </url>
   
   <url>
@@ -62,7 +90,15 @@
   </url>
   
   <url>
+    <loc>https://liveunix.org/distro/solus/</loc>
+  </url>
+  
+  <url>
     <loc>https://liveunix.org/distro/tails/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/trisquel/</loc>
   </url>
   
   <url>
@@ -71,6 +107,10 @@
   
   <url>
     <loc>https://liveunix.org/distro/xubuntu/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liveunix.org/distro/zorin-os/</loc>
   </url>
   
 </urlset>

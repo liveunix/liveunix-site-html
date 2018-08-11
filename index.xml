@@ -62,6 +62,27 @@ flavours &amp;lt; cinnamon, dvd, gnome, kde, lxde, mate, netinst, netinst-xfce &
     </item>
     
     <item>
+      <title>deepin</title>
+      <link>https://liveunix.org/distro/deepin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/distro/deepin/</guid>
+      <description>document.write(loadFile(&#34;/ascii/deepin&#34;));   homepage &amp;lt; https://www.deepin.org/en/ &amp;gt;
+summary &amp;lt; deepin aims to provide an elegant, user-friendly and reliable operating system. &amp;gt;
+degree of difficulty &amp;lt; beginner &amp;gt;
+download &amp;lt; https://www.deepin.org/en/download/ &amp;gt;
+latest version &amp;lt; 15.6 &amp;gt;
+desktop &amp;lt; deepin &amp;gt;
+based on &amp;lt; debian &amp;gt;
+release &amp;lt; stable &amp;gt;
+wiki &amp;lt; https://wiki.deepin.org/ &amp;gt;
+installation &amp;lt; gui &amp;gt;
+architectures &amp;lt; amd64 &amp;gt;
+package manager &amp;lt; apt &amp;gt;
+init system &amp;lt; systemd &amp;gt;</description>
+    </item>
+    
+    <item>
       <title>exherbo</title>
       <link>https://liveunix.org/distro/exherbo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -79,6 +100,46 @@ init system &amp;lt; systemd, openrc &amp;gt;
 libc &amp;lt; glibc, musl &amp;gt;
 git &amp;lt; https://gitlab.exherbo.org &amp;gt;
 bugtracker &amp;lt; https://bugs.exherbo.org &amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>fedora</title>
+      <link>https://liveunix.org/distro/fedora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/distro/fedora/</guid>
+      <description>document.write(loadFile(&#34;/ascii/fedora&#34;));   homepage &amp;lt; https://getfedora.org/ &amp;gt;
+summary &amp;lt; a polished, easy to use operating system for laptop and desktop computers. &amp;gt;
+degree of difficulty &amp;lt; beginner &amp;gt;
+about &amp;lt; https://docs.fedoraproject.org/fedora-project/project/fedora-overview.html &amp;gt;
+latest version &amp;lt; 28 &amp;gt;
+release &amp;lt; rolling &amp;gt;
+documentation &amp;lt; https://docs.fedoraproject.org/ &amp;gt;
+installation &amp;lt; gui &amp;gt;
+architectures &amp;lt; x86_64 &amp;gt;
+flavours &amp;lt; cinnamon, gnome, lxde, lxqt, mate-compiz, plasma, soas, xfce &amp;gt;
+package manager &amp;lt; yum &amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>frugalware</title>
+      <link>https://liveunix.org/distro/frugalware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/distro/frugalware/</guid>
+      <description>document.write(loadFile(&#34;/ascii/frugalware&#34;));   homepage &amp;lt; https://frugalware.org/ &amp;gt;
+summary &amp;lt; frugalware is a general purpose linux distribution, designed for intermediate users. &amp;gt;
+degree of difficulty &amp;lt; intermediate &amp;gt;
+download &amp;lt; https://frugalware.org/download &amp;gt;
+latest version &amp;lt; 2.1 &amp;gt;
+faq &amp;lt; http://github.com/frugalware/frugalware-current/wiki/index.php/faq &amp;gt;
+documentation &amp;lt; https://frugalware.org/docs &amp;gt;
+wiki &amp;lt; https://github.com/frugalware/frugalware-current/wiki &amp;gt;
+upgrade &amp;lt; https://frugalware.org/docs/stable/upgrade.html &amp;gt;
+installation &amp;lt; gui &amp;gt;
+architectures &amp;lt; x86_64 &amp;gt;
+flavours &amp;lt; basic, gnome, plasma &amp;gt;
+mailing lists &amp;lt; https://groups.</description>
     </item>
     
     <item>
@@ -110,6 +171,64 @@ description &amp;lt; consisting of a representative collection of gnu/linux soft
     </item>
     
     <item>
+      <title>kubuntu</title>
+      <link>https://liveunix.org/distro/kubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/distro/kubuntu/</guid>
+      <description>document.write(loadFile(&#34;/ascii/kubuntu&#34;));   homepage &amp;lt; https://kubuntu.org/ &amp;gt;
+summary &amp;lt; kubuntu unites ubuntu with kde and the fabulous plasma desktop, bringing you a full set of applications. &amp;gt;
+degree of difficulty &amp;lt; beginner &amp;gt;
+about &amp;lt; https://kubuntu.org/about-us/ &amp;gt;
+download &amp;lt; kubuntu unites ubuntu with kde and the fabulous plasma desktop, bringing you a full set of applications. &amp;gt;
+latest version &amp;lt; 18.04.1 &amp;gt;
+desktop &amp;lt; plasma &amp;gt;
+based on &amp;lt; ubuntu &amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>linux mint</title>
+      <link>https://liveunix.org/distro/linux-mint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/distro/linux-mint/</guid>
+      <description>document.write(loadFile(&#34;/ascii/mint&#34;));   homepage &amp;lt; https://linuxmint.com/ &amp;gt;
+summary &amp;lt; a modern, elegant and comfortable operating system which is both powerful and easy to use. &amp;gt;
+degree of difficulty &amp;lt; beginner &amp;gt;
+about &amp;lt; https://linuxmint.com/about.php &amp;gt;
+download &amp;lt; https://linuxmint.com/download.php &amp;gt;
+latest version &amp;lt; 19 &amp;gt;
+based on &amp;lt; ubuntu &amp;gt;
+release &amp;lt; stable &amp;gt;
+faq &amp;lt; https://linuxmint.com/faq.php &amp;gt;
+documentation &amp;lt; https://linuxmint.com/documentation.php &amp;gt;
+installation &amp;lt; gui &amp;gt;
+architectures &amp;lt; x86_64, i386 &amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>mageia</title>
+      <link>https://liveunix.org/distro/mageia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/distro/mageia/</guid>
+      <description>document.write(loadFile(&#34;/ascii/mageia&#34;));   homepage &amp;lt; https://mageia.org/ &amp;gt;
+summary &amp;lt; stable, secure operating system for desktop &amp;amp; server. &amp;gt;
+degree of difficulty &amp;lt; intermediate &amp;gt;
+about &amp;lt; https://www.mageia.org/en/about/ &amp;gt;
+download &amp;lt; https://www.mageia.org/en/downloads/ &amp;gt;
+latest version &amp;lt; 6 &amp;gt;
+based on &amp;lt; mandriva &amp;gt;
+documentation &amp;lt; https://www.mageia.org/en/doc/ &amp;gt;
+wiki &amp;lt; https://wiki.mageia.org/ &amp;gt;
+upgrade &amp;lt; https://wiki.mageia.org/en/mageia_6_release_notes#upgrading_from_mageia_5 &amp;gt;
+installation &amp;lt; gui &amp;gt;
+architectures &amp;lt; x86_64 &amp;gt;
+flavours &amp;lt; gnome, plasma, xfce &amp;gt;
+contact &amp;lt; https://www.</description>
+    </item>
+    
+    <item>
       <title>manjaro</title>
       <link>https://liveunix.org/distro/manjaro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -126,6 +245,27 @@ installation &amp;lt; gui &amp;gt;
 architectures &amp;lt; x86_64 &amp;gt;
 flavours &amp;lt; awesome, bspwm, budgie, cinnamon, deepin, gnome, i3, kde, lxde, mate, openbox, xfce &amp;gt;
 package manager &amp;lt; pacman &amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>pop!_os</title>
+      <link>https://liveunix.org/distro/pop_os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/distro/pop_os/</guid>
+      <description>document.write(loadFile(&#34;/ascii/pop&#34;));   homepage &amp;lt; https://system76.com/pop &amp;gt;
+summary &amp;lt; a linux distribution developed by the manufacturer system76 inc. &amp;gt;
+degree of difficulty &amp;lt; beginner &amp;gt;
+latest version &amp;lt; 18.04 &amp;gt;
+desktop &amp;lt; gnome &amp;gt;
+based on &amp;lt; ubuntu &amp;gt;
+release &amp;lt; stable &amp;gt;
+documentation &amp;lt; http://pop.system76.com/docs &amp;gt;
+installation &amp;lt; gui &amp;gt;
+architectures &amp;lt; amd64 &amp;gt;
+flavours &amp;lt; intel/amd, nvidia &amp;gt;
+package manager &amp;lt; apt &amp;gt;
+init system &amp;lt; systemd &amp;gt;</description>
     </item>
     
     <item>
@@ -165,6 +305,27 @@ libc &amp;lt; glibc &amp;gt;</description>
     </item>
     
     <item>
+      <title>solus</title>
+      <link>https://liveunix.org/distro/solus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/distro/solus/</guid>
+      <description>document.write(loadFile(&#34;/ascii/solus&#34;));   homepage &amp;lt; https://solus-project.com/ &amp;gt;
+summary &amp;lt; solus is an operating system that is designed for home computing. &amp;gt;
+degree of difficulty &amp;lt; beginner &amp;gt;
+about &amp;lt; https://solus-project.com/solus/about/ &amp;gt;
+download &amp;lt; https://solus-project.com/download &amp;gt;
+latest version &amp;lt; 3 &amp;gt;
+installation &amp;lt; gui &amp;gt;
+architectures &amp;lt; x86_64 &amp;gt;
+flavours &amp;lt; budgie, gnome, mate &amp;gt;
+init system &amp;lt; systemd &amp;gt;
+libc &amp;lt; glibc &amp;gt;
+forum &amp;lt; https://solus-project.com/forums/ &amp;gt;
+bugtracker &amp;lt; https://dev.</description>
+    </item>
+    
+    <item>
       <title>tails</title>
       <link>https://liveunix.org/distro/tails/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -181,6 +342,26 @@ desktop &amp;lt; gnome &amp;gt;
 based on &amp;lt; debian &amp;gt;
 release &amp;lt; stable &amp;gt;
 faq &amp;lt; https://tails.</description>
+    </item>
+    
+    <item>
+      <title>trisquel</title>
+      <link>https://liveunix.org/distro/trisquel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/distro/trisquel/</guid>
+      <description>document.write(loadFile(&#34;/ascii/trisquel&#34;));   homepage &amp;lt; https://trisquel.info/ &amp;gt;
+summary &amp;lt; trisquel gnu/linux is a fully free operating system for home users, small enterprises and educational centers. &amp;gt;
+degree of difficulty &amp;lt; intermediate &amp;gt;
+about &amp;lt; https://trisquel.info/en/wiki/about-trisquel &amp;gt;
+download &amp;lt; https://trisquel.info/en/download &amp;gt;
+latest version &amp;lt; 8.0 &amp;gt;
+based on &amp;lt; debian &amp;gt;
+release &amp;lt; stable &amp;gt;
+faq &amp;lt; https://trisquel.info/en/faq &amp;gt;
+documentation &amp;lt; https://trisquel.info/en/wiki/documentation &amp;gt;
+installation &amp;lt; gui &amp;gt;
+architectures &amp;lt; amd64 &amp;gt;</description>
     </item>
     
     <item>
@@ -220,6 +401,25 @@ installation &amp;lt; gui &amp;gt;
 architectures &amp;lt; amd64, i386 &amp;gt;
 package manager &amp;lt; apt &amp;gt;
 init system &amp;lt; systemd &amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>zorin os</title>
+      <link>https://liveunix.org/distro/zorin-os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liveunix.org/distro/zorin-os/</guid>
+      <description>document.write(loadFile(&#34;/ascii/zorin&#34;));   homepage &amp;lt; https://zorinos.com/ &amp;gt;
+summary &amp;lt; zorin os is an alternative to windows and macos, designed to make your computer faster, more powerful and secure. &amp;gt;
+degree of difficulty &amp;lt; beginner &amp;gt;
+about &amp;lt; https://zorinos.com/about/ &amp;gt;
+getting started &amp;lt; https://zorinos.com/help/ &amp;gt;
+download &amp;lt; https://zorinos.com/download/ &amp;gt;
+latest version &amp;lt; 12.3 &amp;gt;
+desktop &amp;lt; gnome &amp;gt;
+based on &amp;lt; ubuntu &amp;gt;
+release &amp;lt; stable &amp;gt;
+installation &amp;lt; gui &amp;gt;</description>
     </item>
     
   </channel>
